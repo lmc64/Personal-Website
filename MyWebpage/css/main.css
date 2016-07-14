@@ -1,0 +1,176 @@
+body {
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size:13pt;
+}
+
+.jumbotron {
+	text-align: center;	
+    text-shadow: black 0.3em 0.3em 0.3em;
+	overflow:hidden;
+}
+
+.inverse {
+	background-color:#35404f !important;
+	color: white !important;
+}
+
+.default {
+	background-color:white;
+	color: black;
+}
+
+.default hr {
+    border-color: #35404f;
+}
+
+.container {
+	padding-bottom: 100px;
+	padding-top:50px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	padding-bottom: 10px;
+}
+
+.projects {
+    size:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.projects ul {
+    list-style: none;
+    width: 99%;
+    margin: auto;
+}
+.projects li {
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size:12pt;
+    display:block;
+    float: left;
+    height:300px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.centered {
+    align-items: center;
+}
+.projects .project1 {
+    background: #a3d39c;
+}
+.projects .project2 {
+    background: #7accc8;
+}
+.projects .project3 {
+    background: #4aaaa5;
+}
+.projects .project4 {
+    background: #35404f;
+}
+
+.projects li a {
+    font-family: FontAwesome;
+    color:#eee;
+    font-size:22pt;
+    text-decoration: none;
+    display: block;
+    padding:15px;
+}
+.projects li i {
+    margin-top: 70px;
+    color:#fff;
+    padding:0 10px;
+}
+.projects li b {
+    margin-top: 100px;
+    padding: 15px 0;
+    display: none;
+}
+.projects a:hover {
+    color: #fff;
+}
+.projects li:hover i {
+    display: none;
+}
+.projects li:hover b {
+    display: block;
+}
+
+#highlight .item{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#highlight .cogs{
+   color:#a3d39c;
+}
+
+#highlight .group{
+    color:#7accc8;
+}
+
+#highlight .play{
+    color:#4aaaa5;
+}
+
+#highlight .button{
+    text-align:  center;
+}
+
+#contact{
+    background-color: #D1D1D1;
+    padding-bottom: 50px;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 100%;
+}
+
+input.btn{
+    width: 30%;
+    background-color: #a3d39c; 
+}
+
+input.btn:hover{
+    background-color: #8AB384;
+}
+
+.footer{
+    color:#777;;
+    background-color:#222222;
+}
+
+.footer ul{
+    text-align: center;
+    list-style:none;
+    margin:10px;
+    padding:10px;
+}
+
+.footer li{
+    display:inline;
+    padding:10px;
+}
+
+.footer a{
+    color:#777;
+}
+
+.footer a:hover{
+    color:white;
+}
