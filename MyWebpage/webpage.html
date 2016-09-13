@@ -12,13 +12,13 @@
 	<link href="css/main.css" rel="stylesheet">
 	
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">>
 	
 	<!--JQuery JS-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 
 	<!--Bootstrap JS-->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!--Font Awesome Fonts and Icons-->
 	<script src="https://use.fontawesome.com/f9ba6b20c2.js"></script> 
@@ -44,9 +44,8 @@
 		<div class="collapse navbar-collapse" id="myNav">
 		<ul class="nav navbar-nav navbar-right">
 			<li><a class="page-scroll" href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a href="#highlight">About</a></li>
 			<li><a href="#portfolio">Projects</a></li>
-			<li><a href="#highlight">Highlights</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 		
@@ -61,25 +60,45 @@
 			<img class="img-circle" src="img/me_square.jpg" height="400px">
 			<h1>Larissa Cox</h1>
 			<hr>
-			<p>	<span> Software Developer - </span>
-				<span>Web Developer </span>
-				<span>- Student at Duke University</span></p>
+			<p>	<span> Student at Duke University - </span>
+				<span>Computer Science Major </span>
+				<span>- Gender, Sexuality, and Feminism Minor </span></p>
 		</div>
 	</div>
 	
 	<!--About-->
 	
-	<div class="default" id="about">
+<!--Highlights-->
+	<div class="default" id="highlight">
 		<div class="container">
-			<div><h1>About Me</h1></div>
+			<h1>About Me</h1>
 			<hr>
 			<div class="row">
-				<div class="col-sm-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lorem at ipsum congue blandit. Quisque eu metus at nisi congue molestie ac eget nunc. Nullam in massa vitae tortor ornare pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi leo magna, cursus sollicitudin porta eget, commodo maximus lectus. Curabitur sit amet libero vitae orci commodo ullamcorper. Etiam a tincidunt elit. Vivamus lacinia iaculis purus, ut fringilla lectus vestibulum sit amet. Nunc eu posuere risus, et eleifend nibh. In congue, metus ut sodales rutrum, nulla nunc faucibus nulla, nec laoreet eros ante in leo.</p>
-					</div>
-				<div class="col-sm-6">
-					<p>Fusce porttitor diam in neque fermentum pulvinar. Nullam ac pharetra odio. Cras eget vulputate ante, ut rhoncus libero. Proin tincidunt massa imperdiet auctor ullamcorper. Praesent vel tortor faucibus ex maximus luctus. Integer nunc enim, viverra ac sapien at, elementum pulvinar urna. Ut at posuere urna, at pellentesque sapien. Curabitur luctus, elit nec maximus finibus, odio nunc luctus dolor, sed tempus lacus lectus quis leo.</p>
+				<div class="col-sm-4 item">
+					<i class="icon cogs fa fa-cogs fa-5x"></i>
+					<h3>Work</h3>
+					<p>For the past two semesters, I have worked as a Teaching Assistant for the Duke Department of Computer Science, first 
+						for Intro to Computer Science, an fundamentals based course taught in python, and then for Data Structures and Algorithms,
+						taught in Java. I also work as a receptionist in Duke's Office of the Vice President.</p> 
 				</div>
+				<div class="col-sm-4 item">
+					<i class="icon group fa fa-group fa-5x"></i>
+					<h3>Activities</h3>
+					<p>During the summer of 2016, I was a volunteer at Mobius Science Center and Spark Community Center in Spokane, Washington. 
+						There, I helped with workshops and events related to teaching kids robotics and coding using technology
+						such as Little Bits, Ozobots, Scratch, and Code.org. </p>
+				</div>
+				<div class="col-sm-4 item">
+					<i class="icon play fa fa-play-circle-o fa-5x"></i>
+					<h3>Play</h3>
+					<p>In my spare time, I am on the Fall Preparation Team of Duke Catalyst, a pre-professional tech organization, a student mentor for 
+						the Duke chapter of the Association for Computing Machinery, a section leader and social chair of the Duke University Wind Symphony, 
+						and a member of the Duke University Saxophone Quartet.
+					</p> 
+				</div>
+			</div>
+			<div class="button">
+				<input type="get" action="file/resume.doc" class="btn btn-large" value="View Resume">
 			</div>
 		</div>
 	</div>
@@ -94,65 +113,165 @@
 				
 				<ul>
 					<li class="project1 img-circle">
-						<a href="index.html"><i class="icon fa fa-flask fa-4x"></i><b>Project 1</b></a>
+						 <a href="#" data-target="#huffman" data-toggle="modal"><i class="icon fa fa-file fa-4x"></i><b>Huffman Compression Suite</b></a>
 					</li>
 					<li class="project2 img-circle">
-						<a href="about"><i class="icon fa fa-laptop fa-4x"></i><b>Project 2</b></a>
+						<a href="#autocomplete"  data-target="#autocomplete" data-toggle="modal"><i class="icon fa fa-search fa-4x"></i><b>Autocomplete Algorithm</b></a>
 					</li>
 					<li class="project3 img-circle">
-						<a href="#projects"><i class="icon fa fa-code fa-4x"></i><b>Project 3</b></a>
+						<a href="#cache"  data-target="#cache" data-toggle="modal"><i class="icon fa fa-laptop fa-4x"></i><b>Cache Simulator</b></a>
+					</li>
+					<li class="project2 img-circle">
+						<a href="#recommender"  data-target="#recommender" data-toggle="modal"><i class="icon fa fa-users fa-4x"></i><b>Recommender System</b></a>
+					</li>
+					<li class="project3 img-circle">
+						<a href="#catalyst"  data-target="#catalyst" data-toggle="modal"><i class="icon fa fa-location-arrow fa-4x"></i><b>Catalyst Webpage</b></a>
 					</li>
 					<li class="project1 img-circle">
-						<a href="index.html"><i class="icon fa fa-flask fa-4x"></i><b>Project 1</b></a>
-					</li>
-					<li class="project2 img-circle">
-						<a href="about"><i class="icon fa fa-laptop fa-4x"></i><b>Project 2</b></a>
-					</li>
-					<li class="project3 img-circle">
-						<a href="#projects"><i class="icon fa fa-code fa-4x"></i><b>Project 3</b></a>
+						<a href="#game"  data-target="#game" data-toggle="modal"><i class="icon fa fa-gamepad fa-4x"></i><b>Strategy Game</b></a>
 					</li>
 					
 				</ul>
 				
 			</div>
+			  
+			  
 		</div>
 	</div>
 	
-	<!--Highlights-->
-	<div class="default" id="highlight">
-		<div class="container">
-			<h1>Resume Highlights</h1>
-			<hr>
-			<div class="row">
-				<div class="col-sm-4 item">
-					<i class="icon cogs fa fa-cogs fa-5x"></i>
-					<h3>Work</h3>
-					<p>For the past two semesters, I have worked as a Teaching Assistant for the Duke Department of Computer Science, first 
-						for Intro to Computer Science, an fundamentals based course taught in python, and then for Data Structures and Algorithms,
-						taught in Java. I also work as a receptionist in Duke's Office of the Vice President.</p> 
+	<!-- Portfolio Items -->
+	<div id="huffman" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Huffman Compression/Decompression Suite</h3>
+					<p>Java</p>
 				</div>
-				<div class="col-sm-4 item">
-					<i class="icon group fa fa-group fa-5x"></i>
-					<h3>Play</h3>
-					<p>I currently volunteer at Mobius Science Center and Spark Community Center in Spokane, Washington. 
-						There, I help with workshops and events related to teaching kids robotics and coding using technology
-						such as Little Bits, Ozobots, Scratch, and Code.org. </p>
+				<div class="modal-body">
+					<p>In a project for my Data Structures and Algorithms course, I implemented a Huffman 
+						coding suite capable of compressing and decompressing files using Huffman trees 
+						and prefix codes.</p>
+					<p>In more recent years, I have taught other students how to code this assignment as a
+						teaching assistant for the Data Structures and Algorithms course.</p>
 				</div>
-				<div class="col-sm-4 item">
-					<i class="icon play fa fa-play-circle-o fa-5x"></i>
-					<h3>Activities</h3>
-					<p>In my spare time, I am on the Fall Preparation Team of Duke Catalyst, a pre-professional tech organization, a student mentor for 
-						the Duke chapter of the Association for Computing Machinery, a section leader and social chair of the Duke University Wind Symphony, 
-						and a member of the Duke University Saxophone Quartet.
-					</p> 
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
-			</div>
-			<div class="button">
-				<input type="get" action="file/resume.doc" class="btn btn-large" value="View Full Resume">
 			</div>
 		</div>
 	</div>
 	
+	<div id="autocomplete" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Trie Autocomplete Algorithm</h3>
+					<p>Java</p>
+				</div>
+				<div class="modal-body">
+					<p>In this project for my Data Structures and Algorithms course, I wrote a program that uses 
+						binary search algorithms and trie data structures to implement an Autocomplete 
+						algorithm that guesses the user's query based on the prefix they have typed and a 
+						weight that corresponds to the popularity of the word. </p>
+					<p>In more recent years, I have taught other students how to code this assignment as a
+						teaching assistant for the Data Structures and Algorithms course.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="cache" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Simulation of Single-Level Cache</h3>
+					<p>Java</p>
+				</div>
+				<div class="modal-body">
+					<p>In this project for my Computer Architecture course, I designed and implemented a program to 
+						simulate loads and stores to a single-level cache. The simulation can create caches with varying
+						associativities and block sizes.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="recommender" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">User Recommendation Algorithm</h3>
+					<p>Python</p>
+				</div>
+				<div class="modal-body">
+					<p>In this project for my Introduction to Programming course, I created a program that recommends items 
+						to users based on analysis of data about their preferences. The program reads in data about user 
+						preferences and then, given a specific user, makes recommendations to them based on the preferences
+						of other users who liked similar items.</p>
+					<p>In more recent years, I have taught other students how to code this assignment as a
+						teaching assistant for the Introduction to Programming course.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="catalyst" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Webpage for Catalyst Pre-Professional Tech Group</h3>
+					<p>HTML, CSS</p>
+				</div>
+				<div class="modal-body">
+					<p>I worked together with a team of other members to design a webpage for Catalyst, a pre-professional
+						tech group that I am a member of. </p>
+					<p>The repository for the webpage can be found on the <a href="https://github.com/CatalystAtDuke/Catalyst">Catalyst GitHub page</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="game" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Turn Based Strategy Game</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Java FX</h4>
+					<p>In my Software Design and Implemetation Course, I designed and created a Turn based 
+						strategy game based on a combination between checkers and rock, paper, scissors. </p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 	<!--Contact-->
 	
