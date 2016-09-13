@@ -57,8 +57,8 @@ h4 {
     font-size:12pt;
     display:block;
     float: left;
-    height:300px;
-    width: 300px;
+    height:250px;
+    width: 250px;
     text-align: center;
     transition: all 0.2s ease-in-out;
 }
@@ -88,12 +88,12 @@ h4 {
     padding:15px;
 }
 .projects li i {
-    margin-top: 70px;
+    margin-top: 30px;
     color:#fff;
     padding:0 10px;
 }
 .projects li b {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 15px 0;
     display: none;
 }
