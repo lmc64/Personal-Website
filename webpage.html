@@ -31,7 +31,7 @@
 	
 	<!--Navigation-->
 	
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
@@ -54,83 +54,121 @@
 	</nav>
 
 	<!--Header-->
-	
+
 	<div class="jumbotron inverse">
 		<div class="container">
 			<img class="img-circle" src="img/me_square.jpg" height="400px">
 			<h1>Larissa Cox</h1>
 			<hr>
-			<p>	<span> Student at Duke University - </span>
-				<span>Computer Science Major </span>
-				<span>- Gender, Sexuality, and Feminism Minor </span></p>
+			<p>	<span>Developer</span>
+				<span>  -  Program Manager</span>
+				<span>  -  Student</span>
+				<span>  -  Teacher</span></p>
+		</div>
+	</div>
+
+	<!--About-->
+	<div class="default" id="bio">
+		<div class="container">
+			<div class="col-sm-5">
+				<img src="img/me_wide.jpg" height="400px">
+			</div>
+			<div class="col-sm-7">
+				<h1>Hi, I'm Larissa Cox, a Program Management Intern at Microsoft and student at Duke University!</h1>
+				<h4> I have experience working as a software developer, program manager, designer, and teacher. I'm currently finishing the final year of my
+						Bachelor's degree at Duke University, where I study Computer Science.
+				</h4> 
+				<h4>I love working with people and with software, and I'm passionate about helping others and learning new things.
+				</h4> 
+			</div>
 		</div>
 	</div>
 	
-	<!--About-->
-	
-<!--Highlights-->
-	<div class="default" id="highlight">
+	<!--Highlights-->
+	<div class="gray" id="highlight">
 		<div class="container">
-			<h1>About Me</h1>
+			<h1>Resume Highlights</h1>
 			<hr>
 			<div class="row">
-				<div class="col-sm-4 item">
-					<i class="icon cogs fa fa-cogs fa-5x"></i>
-					<h3>Work</h3>
-					<p>For the past two semesters, I have worked as a Teaching Assistant for the Duke Department of Computer Science, first 
-						for Intro to Computer Science, an fundamentals based course taught in python, and then for Data Structures and Algorithms,
-						taught in Java. I also work as a receptionist in Duke's Office of the Vice President.</p> 
+				<div class="col-sm-3 item">
+					<img src="img/microsoft.png" width="70px">
+					<h3>Microsoft Intern</h3>
+					<p>This summer, I worked at Microsoft as a technical Program Manager, where I worked as the project leader on a team of 5 to 
+						develop a full stack web application aimed at increasing productivity. In addition to being the face of the team, I worked
+						as a developer for the team.
+					</p> 
 				</div>
-				<div class="col-sm-4 item">
-					<i class="icon group fa fa-group fa-5x"></i>
-					<h3>Activities</h3>
-					<p>During the summer of 2016, I was a volunteer at Mobius Science Center and Spark Community Center in Spokane, Washington. 
-						There, I helped with workshops and events related to teaching kids robotics and coding using technology
-						such as Little Bits, Ozobots, Scratch, and Code.org. </p>
+				<div class="col-sm-3 item">
+					<img src="img/duke_logo_lighter.png" width="80px">
+					<h3>Computer Science Teaching Assistant</h3>
+					<p> I've worked for three semesters as a Teaching Assistant for the Duke Department of Computer Science, first for Fundamentals of Computer Science, an 
+						introductory course taught in python, and then for Data Structures and Algorithms,taught in Java. </p> 
 				</div>
-				<div class="col-sm-4 item">
-					<i class="icon play fa fa-play-circle-o fa-5x"></i>
-					<h3>Play</h3>
-					<p>In my spare time, I am on the Fall Preparation Team of Duke Catalyst, a pre-professional tech organization, a student mentor for 
-						the Duke chapter of the Association for Computing Machinery, a section leader and social chair of the Duke University Wind Symphony, 
-						and a member of the Duke University Saxophone Quartet.
+				<div class="col-sm-3 item">
+					<img src="img/catalyst_logo.png" width="70px">
+					<h3>Founder and President of Catalyst</h3>
+					<p>I am a founding member and past president of Catalyst, a preprofessional tech organization at Duke. In these roles, I led meetings, planned and organized
+						events, and helped with the chartering process for the organization.
+					</p>
+				</div>
+				<div class="col-sm-3 item">
+					<img src="img/sparkcentral_logo.png" width="70px">
+					<h3>Volunteer Tech Teacher</h3>
+					<p>During the summer of 2016, I was a volunteer at the Spark Community Center in Spokane, Washington, where I 
+						I taught kids coding and robotics workshops using technology
+						such as Scratch, Little Bits, Ozobots, and Code.org.  
 					</p> 
 				</div>
 			</div>
-			<div class="button">
-				<input type="get" action="file/resume.doc" class="btn btn-large" value="View Resume">
-			</div>
+			<a href="files/Larissa_Cox_Resume.pdf" download="LarissaCoxResume">
+				<div class="button">
+					<input type="get" action="files/Larissa_Cox_Resume.pdf" class="btn btn-large"  value="Resume">
+				</div>
+			</a>
 		</div>
 	</div>
 	
 	<!--Portfolio-->
 	
-	<div class="inverse" id="portfolio">
+	<div class="default" id="portfolio">
 		<div class="container">
 			<h1>My Portfolio</h1>
 			<hr>
 			<div class="projects">
 				
 				<ul>
-					<li class="project1 img-circle">
-						 <a href="#" data-target="#huffman" data-toggle="modal"><i class="icon fa fa-file fa-4x"></i><b>Huffman Compression Suite</b></a>
+					<li class="project1">
+						 <a href="#" data-target="#huffman" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Huffman Compression Suite</b></a>
 					</li>
-					<li class="project2 img-circle">
-						<a href="#autocomplete"  data-target="#autocomplete" data-toggle="modal"><i class="icon fa fa-search fa-4x"></i><b>Autocomplete Algorithm</b></a>
+					<li class="project2">
+						<a href="#autocomplete"  data-target="#autocomplete" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Autocomplete Algorithm</b></a>
 					</li>
-					<li class="project3 img-circle">
-						<a href="#cache"  data-target="#cache" data-toggle="modal"><i class="icon fa fa-laptop fa-4x"></i><b>Cache Simulator</b></a>
+					<li class="project3">
+						<a href="#cache"  data-target="#cache" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Cache Simulator</b></a>
 					</li>
-					<li class="project2 img-circle">
-						<a href="#recommender"  data-target="#recommender" data-toggle="modal"><i class="icon fa fa-users fa-4x"></i><b>Recommender System</b></a>
+					<li class="project1">
+						<a href="#game"  data-target="#game" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Strategy Game</b></a>
 					</li>
-					<li class="project3 img-circle">
-						<a href="#catalyst"  data-target="#catalyst" data-toggle="modal"><i class="icon fa fa-location-arrow fa-4x"></i><b>Catalyst Webpage</b></a>
 					</li>
-					<li class="project1 img-circle">
-						<a href="#game"  data-target="#game" data-toggle="modal"><i class="icon fa fa-gamepad fa-4x"></i><b>Strategy Game</b></a>
+					<li class="project1">
+						<a href="#cell-society"  data-target="#cell-society" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Cellular Automata Simulator</b></a>
 					</li>
-					
+					<li class="project1">
+						<a href="#slogo"  data-target="#slogo" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Simple Logo Turtle Environment</b></a>
+					</li>
+					<li class="project1">
+						<a href="#VOOGASalad"  data-target="#VOOGASalad" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Game Authoring Environment</b></a>
+					</li>
+					<li class="project1">
+						<a href="#Tunder"  data-target="#tunder" data-toggle="modal"><img src="img/ca_square.png" width="250px"><b>Tunder Music Discovery App</b></a>
+					</li>
+
+					<!--<li class="project3">
+						<a href=""  data-target="" data-toggle="modal"><i class="icon fa fa-file fa-4x"></i><b>Coming Soon</b></a>
+					</li>
+					<li class="project1">
+						<a href=""  data-target="" data-toggle="modal"><i class="icon fa fa-search fa-4x"></i><b>Coming Soon</b></a>
+					</li>-->
 				</ul>
 				
 			</div>
@@ -138,6 +176,54 @@
 			  
 		</div>
 	</div>
+
+	<!--<div class="default" id="portfolio">
+		<div class="container">
+			<h1>My Portfolio</h1>
+			<hr>
+			<div class="projects">
+				<div class="row">
+					<div class="col-sm-3 project1">
+						<a href="#" data-target="#huffman" data-toggle="modal"><i class="icon fa fa-file fa-4x"></i><b>Huffman Compression Suite</b></a>
+					</div>
+					<div class="col-sm-3 project2">
+						<a href="#autocomplete"  data-target="#autocomplete" data-toggle="modal"><i class="icon fa fa-search fa-4x"></i><b>Autocomplete Algorithm</b></a>
+					</div>
+					<div class="col-sm-3 project3">
+						<a href="#cache"  data-target="#cache" data-toggle="modal"><i class="icon fa fa-laptop fa-4x"></i><b>Cache Simulator</b></a>
+					</div>
+					<div class="col-sm-3 project1">
+						<a href="#game"  data-target="#game" data-toggle="modal"><i class="icon fa fa-gamepad fa-4x"></i><b>Strategy Game</b></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3 project2">
+						<a href="#cell-society"  data-target="#cell-society" data-toggle="modal"><i class="icon fa fa-laptop fa-4x"></i><b>Cellular Automata Simulator</b></a>
+					</div>
+					<div class="col-sm-3 project3">
+						<a href="#slogo"  data-target="#slogo" data-toggle="modal"><i class="icon fa fa-cogs fa-4x"></i><b>Simple Logo Turtle Environment</b></a>
+					</div>
+					<div class="col-sm-3 project1">
+						<a href="#VOOGASalad"  data-target="#VOOGASalad" data-toggle="modal"><i class="icon fa fa-gamepad fa-4x"></i><b>Game Authoring Environment</b></a>
+					</div>
+					<div class="col-sm-3 project2">
+						<a href="#Tunder"  data-target="#tunder" data-toggle="modal"><i class="icon fa fa-gamepad fa-4x"></i><b>Tunder Music Discovery App</b></a>
+					</div>
+				</div>
+
+					<li class="project3">
+						<a href=""  data-target="" data-toggle="modal"><i class="icon fa fa-file fa-4x"></i><b>Coming Soon</b></a>
+					</li>
+					<li class="project1">
+						<a href=""  data-target="" data-toggle="modal"><i class="icon fa fa-search fa-4x"></i><b>Coming Soon</b></a>
+					</li>
+				</ul>
+				
+			</div>
+			  
+			  
+		</div>
+	</div>-->
 	
 	<!-- Portfolio Items -->
 	<div id="huffman" class="modal face" role="dialog">
@@ -150,11 +236,13 @@
 					<p>Java</p>
 				</div>
 				<div class="modal-body">
-					<p>In a project for my Data Structures and Algorithms course, I implemented a Huffman 
-						coding suite capable of compressing and decompressing files using Huffman trees 
-						and prefix codes.</p>
-					<p>In more recent years, I have taught other students how to code this assignment as a
-						teaching assistant for the Data Structures and Algorithms course.</p>
+
+							<p>In a project for my Data Structures and Algorithms course, I implemented a Huffman 
+								coding suite capable of compressing and decompressing files using Huffman trees 
+								and prefix codes.</p>
+							<p>In more recent years, I have taught other students how to code this assignment as a
+								teaching assistant for the Data Structures and Algorithms course.</p>
+					<img class="img" src="img/huffman_tree.png" width="100%" height="auto">
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -179,6 +267,7 @@
 						weight that corresponds to the popularity of the word. </p>
 					<p>In more recent years, I have taught other students how to code this assignment as a
 						teaching assistant for the Data Structures and Algorithms course.</p>
+					<img class="img" src="img/autocomplete.png" width="100%" height="auto">
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -200,6 +289,7 @@
 					<p>In this project for my Computer Architecture course, I designed and implemented a program to 
 						simulate loads and stores to a single-level cache. The simulation can create caches with varying
 						associativities and block sizes.</p>
+						<img class="img" src="img/cache.jpg" width="80%" height="auto">
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -224,6 +314,8 @@
 						of other users who liked similar items.</p>
 					<p>In more recent years, I have taught other students how to code this assignment as a
 						teaching assistant for the Introduction to Programming course.</p>
+					<img class="img" src="img/recommend.png" width="100%" height="auto">
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -243,8 +335,9 @@
 				</div>
 				<div class="modal-body">
 					<p>I worked together with a team of other members to design a webpage for Catalyst, a pre-professional
-						tech group that I am a member of. </p>
+						tech group that I am a member of. The page was designed using Bootstrap framework but without a template. </p>
 					<p>The repository for the webpage can be found on the <a href="https://github.com/CatalystAtDuke/Catalyst">Catalyst GitHub page</a></p>
+					<img class="img" src="img/catalyst.png" width="100%" height="auto">
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -263,8 +356,110 @@
 				</div>
 				<div class="modal-body">
 					<h4>Java FX</h4>
-					<p>In my Software Design and Implemetation Course, I designed and created a Turn based 
+					<p>I designed and created a turn based 
 						strategy game based on a combination between checkers and rock, paper, scissors. </p>
+						<img class="img" src="img/game.png" width="100%" height="auto">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div id="cell-society" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Cellular Automata Simulator</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Java, Java FX, XML</h4>
+					<p>I worked with a team of 2 others to design a program capable of simulating and displaying
+						several different types of cellular automata. </p>
+
+					<p>Stats about the states of the cells in the 
+						simulation grid are displayed visually on a graph. The user can choose between a fire spreading simulation, a game of life simulation, a 
+						predator-prey simulation, a segregation simulation, and a slime mold simulation. The program
+						gives the user the ability to set multiple variables about the situation being simulated, as 
+						the ability to change the simulation speed, to pause and then resume the simulation, and to
+						move through the simulation step by step.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="slogo" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Simple Logo Program</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Java, Java FX</h4>
+					<p>I worked with a team of 3 others to design a turtle based coding environment that uses a
+						 simple version of the Logo programming language.</p>
+						 
+					<p>The program supports function creation, variable 
+						 assignment, and loops with variable iteration patterns. It also allows the user to load 
+						 preset turtle functions and also to save their own functions to file. It also allows the
+						 user to save and load their workspace so that the set of functions they have defined can 
+						 be accessed again when they reload the program. </p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="VOOGASalad" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Game Authoring Environment</h4>
+				</div>
+				<div class="modal-body">
+					<h4>Java, Java FX, XML</h4>
+					<p>I worked with a team of 9 others to design a game environment that uses an entity-component 
+						system to allow a user to create multi-level games in a game editor, store them to their local computer, 
+						and then load and play them. </p> 
+						
+					<p>Users can give their game characters attributes, such as health, set character abilities to keys or to
+						video game controller inputs, and choose from multiple different types of win conditions for the game. 
+						They can also add music or interesting backgrounds to their games.It also gives the user the ability to 
+						reopen a game they've created in the editor and to save their progress in multiple games. The game play 
+						environment supports split screen for multiple players. </p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tunder" class="modal face" role="dialog">
+		<div class="modal-dialog">
+			
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times</button>
+					<h3 class="modal-title">Tunder Music Discovery App</h4>
+				</div>
+				<div class="modal-body">
+					<h4>JavaScript, HTML, CSS, Firebase</h4>
+					<p> I worked with a team of 3 others to design an app that provides the user with previews of the newest 
+						music on Spotify and allows them to like and dislike songs, stores information about these preferences 
+						in a Firebase database, and allows the user to create Spotify playlists based on these preferences </p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -275,34 +470,53 @@
 	
 	<!--Contact-->
 	
-	<div class="default" id="contact">
+	<!--<div class="default" id="contact">
 		<div class="container">
 			<h1>Contact Me</h1>
 			<hr>
-			<form action="mail.php" method="POST">
+			<form role="form" action="php/mail.php" method="post" name="contact-form">
 				<div class="form-group col-xs-12 ">
-				<input type="text" class="form-control" placeholder="Name" name="name" required>
+				<input type="text" class="form-control" placeholder="Name" name="name" id="name" required>
 				</div>
-				<div class="form-group col-xs-12 "><input type="email" class="form-control" placeholder="Email" name="email" required>
+				<div class="form-group col-xs-12 "><input type="email" class="form-control" placeholder="Email" name="email" id="email" required>
 				</div>
-				<div class="form-group col-xs-12 "><textarea class="form-control" name="message" placeholder="Message" required rows="8" cols="25"></textarea>
+				<div class="form-group col-xs-12 "><textarea class="form-control" name="message" id="message" placeholder="Message" required rows="8" cols="25"></textarea>
 				</div>
-				<div class="form-group col-xs-12"><input type="submit" class="btn btn-large" value="Send">
+				<div class="form-group col-xs-12"><input id="submit" name="submit" type="submit" class="btn btn-large" value="Send">
 				</div>
 			</form>	
 		</div>				
-	</div>
+	</div>-->
 	
 	<!--Footer-->
 	
 	<div class="footer" id="foot">
-		<div class="container-fluid">
-			<ul class>
-				<li><a href=""><i class="icon fa fa-facebook-square fa-2x"></i></a></li>
-				<li><a href=""><i class="icon fa fa-instagram fa-2x"></i></a></li>
-				<li><a href=""><i class="icon fa fa-linkedin-square fa-2x"></i></a></li>
-				<li><a href=""><i class="icon fa fa-github-square fa-2x"></i></a></li>
-			</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Get In Touch</h3>
+					<p>I'd love to hear from you about opportunities in tech related
+						fields, questions about me, and feedback on my projects! 
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<h3>Contact me</h3>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8"><i class="icon fa fa-phone fa-1x"></i> (970) 433-8140</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<div class="col-sm-8"><i class="icon fa fa-envelope fa-1x"></i>	larissa.cox@duke.edu</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<h3>Find Me Around the Web</h3>
+					<div class="row">
+						<a href="https://www.linkedin.com/in/larissacox"><i class="icon fa fa-linkedin-square fa-3x"></i></a>
+						<a href="https://github.com/lmc64"><i class="icon fa fa-github-square fa-3x"></i></a>
+					</div>
+				</div>
 		</div>
 	</div> 
 	
@@ -311,7 +525,6 @@
 </body>
 
 </html>
-		
 		
 		
 				
