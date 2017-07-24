@@ -49,6 +49,28 @@ h4 {
     background-color:#E5E5E5;
 }
 
+
+#highlight .item{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#highlight .cogs{
+   color:#a3d39c;
+}
+
+#highlight .group{
+    color:#7accc8;
+}
+
+#highlight .play{
+    color:#4aaaa5;
+}
+
+#highlight .button{
+    text-align:  center;
+}
+
 .projects {
     size:100%;
     padding: 0;
@@ -61,13 +83,13 @@ h4 {
     margin: auto;
 }
 .projects li {
+    margin-left:30%;
     margin: 5px;
     margin-bottom: 15px;
     font-size:12pt;
-    display:relative;
     float: left;
-    height:250px;
-    width: 250px;
+    height:300px;
+    width: 350px;
     text-align: center;
     transition: all 0.2s ease-in-out;
 }
@@ -279,6 +301,17 @@ input.btn:hover{
 #resHigh h1 {
     margin-top: 50%;
     font-size: 60px;
+}
+
+#resHigh .container {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 100px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .footer{
