@@ -64,74 +64,53 @@ h4 {
     margin: 5px;
     margin-bottom: 15px;
     font-size:12pt;
-    display:block;
+    display:relative;
     float: left;
     height:250px;
     width: 250px;
     text-align: center;
     transition: all 0.2s ease-in-out;
-    background: "img/ca_square.png"
 }
 
 .centered {
     align-items: center;
 }
-/*.projects .project1 {
-    background: #a3d39c;
-}
-.projects .project2 {
-    background: #7accc8;
-}
-.projects .project3 {
-    background: #4aaaa5;
-}
-.projects .project4 {
-    background: #35404f;
-}*/
 
-.projects li a {
-    font-family: FontAwesome;
-    color:#eee;
-    font-size:22pt;
-    text-decoration: none;
-    display: block;
-    padding:15px;
+#huffman-icon {
+    background: url("../img/ca_square.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.projects li i {
-    margin-top: 30px;
-    color:#fff;
-    padding:0 10px;
+
+#huffman-icon:hover {
+    background: url("../img/ca_square_dark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.projects li b {
-    margin-top: 50px;
-    padding: 15px 0;
-    display: none;
+
+#tunder-icon {
+    background: url("../img/tunder_square.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.projects a:hover {
-    color: #fff;
+
+#tunder-icon:hover {
+    background: url("../img/tunder_square_dark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
-.projects li:hover i {
-    display: none;
-}
-.projects li:hover b {
+
+li:hover b {
     display: block;
 }
 
-#highlight .item{
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-#highlight .cogs{
-   color:#a3d39c;
-}
-
-#highlight .group{
-    color:#7accc8;
-}
-
-#highlight .play{
-    color:#4aaaa5;
+.projects b {
+    color: white;
+    display: none;
 }
 
 #highlight .button{
@@ -158,6 +137,148 @@ input.btn{
 
 input.btn:hover{
     background-color: #8AB384;
+}
+
+.carosel-inner{
+	transition: 20.0s ease-in-out left;
+}
+
+#slide1,#slide2,#slide3,#slide4{
+	min-height:500px;
+}
+
+#resHigh p{
+    text-align: center;
+    font-size: 18px;
+}
+
+#resHigh{
+    text-align: center;
+}
+
+#slide1{
+    width: 100%;
+    height: 100%;
+	background-image: url(../img/group.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#resHigh .item:hover #slide1{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/group.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#slide2{
+    width: 100%;
+    height: 100%;
+	background-image: url(../img/cs201.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: black;
+}
+
+#resHigh .item:hover #slide2{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/cs201.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#slide3{
+    width: 100%;
+    height: 100%;
+	background-image: url(../img/wind_symph.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: bottom center;
+	color: white;
+}
+
+#resHigh .item:hover #slide3{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/wind_symph.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: bottom center;
+	color: white;
+}
+
+#slide4{
+    width: 100%;
+    height: 100%;
+	background-image: url(../img/little_bits.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: black;
+}
+
+#resHigh .item:hover #slide4{
+	background:
+	linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+	url(../img/little_bits.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
+#resHigh .item h2{
+	padding-top: 150px;
+	display:block;
+}
+
+#resHigh .item p{
+	display:none;
+}
+
+#resHigh .item:hover h2{
+	display:none;
+}
+
+#resHigh .item:hover p{
+	display:inline-block;
+    margin-top: 20%;
+	max-width: 600px;
+}
+
+#resHigh .item {
+    background-color: white;
+    margin: 5px;
+}
+
+#resHigh #myCarousel {
+    margin: 20px;
+}
+
+#resHigh h1 {
+    margin-top: 50%;
+    font-size: 60px;
 }
 
 .footer{
